@@ -3,7 +3,7 @@ pragma solidity 0.8.11;
 
 /// @title Proxy
 /// @dev Proxy contract to orchestrate contract redeployment
-/// @authpr Andreas Bigger <andreas@nascent.xyz>
+/// @author Andreas Bigger <andreas@nascent.xyz>
 contract Proxy {
   /// @dev The current deployed contract
   address public deployed;
