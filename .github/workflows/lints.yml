@@ -12,6 +12,8 @@ jobs:
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
+      - name: Install Forge
+        run: cargo install --git https://github.com/gakonst/foundry --bin forge --locked
       - name: Install Dependencies
         run: yarn
       - name: Update Modules
