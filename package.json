@@ -1,9 +1,9 @@
 {
   "name": "soline",
-  "description": "Write, Load, Deploy Solidity in the Context of a Smart Contract.",
+  "description": "Load, Write, Deploy Solidity in the Context of a Smart Contract.",
   "author": "Andreas Bigger <andreas@nascent.xyz>",
   "license": "AGPL-3.0-only",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "files": [
     "src/**/*.sol"
   ],

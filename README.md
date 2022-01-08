@@ -1,10 +1,13 @@
 # soline  • [![tests](https://github.com/abigger87/soline/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/soline/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/soline/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/soline/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/soline) ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/soline)
 
-**Write**, **Load**, **Deploy** Solidity in the Context of a Smart Contract.
+**Load**, **Write**, **Deploy** Solidity in the Context of a Smart Contract.
 
 ## Blueprint
 
 ```ml
+lib
+├─ ds-test
+├─ solmate
 src
 ├─ tests
 │  ├─ utils
