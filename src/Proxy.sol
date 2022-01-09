@@ -27,7 +27,7 @@ contract Proxy {
       let ptr := mload(0x40)
 
       // sload deployed
-      // safe op since address doesn't exceed 256 bits
+      // safe op since address contained in 256 bits
       let tempdeployed := sload(deployed.slot)
 
       // ???
